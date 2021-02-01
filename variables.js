@@ -2,6 +2,9 @@
 
 // variables in javasctipt can be declared with var,let,const 
 
+
+// var is not blocked  scoped i.e  variables defined with var keywoard is function scoped.. 
+
 var name  = 'himanshu';
 var city = 'delhi';
 var channel;
