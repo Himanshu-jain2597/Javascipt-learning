@@ -13,7 +13,7 @@ console.log(channel);  // undefined
 
 
 const name1  = 'jain';
-// name1 =  'goyal';   // cannot do this because const variable cannot be changed... 
+// name1 =  'goyal';   // cannot do this because const variable cannot be changed... i.e it cannot be reassigned 
 console.log(name1);
 
 
