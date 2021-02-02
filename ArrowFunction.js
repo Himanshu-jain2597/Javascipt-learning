@@ -16,6 +16,8 @@ Other function objects do not have a [[Construct]] internal method. These includ
 
 Arrow function this value does not depend on the calling object.. arrow function this value is same as in outside the function..
 
+javascript arrow function does not add in ___proto__ property.. while normal function will. that why normal function can be inherited but arrow function cannot be inherited.. 
+
 */ 
 const square =  function(number) {
 	return number* number;
