@@ -7,6 +7,12 @@ Not suitable for call, apply and bind methods, which generally rely on establish
 Can not be used as constructors.
 Can not use yield, within its body.
 
+To be a constructor, a function object must have a [[Construct]] internal method.
+
+Functions created with the function keyword are constructors, as are some built-in functions such as Date. These are the functions you can use with new.
+
+Other function objects do not have a [[Construct]] internal method. These include arrow functions. So you can't use new with these. 
+
 */ 
 const square =  function(number) {
 	return number* number;
