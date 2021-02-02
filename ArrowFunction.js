@@ -13,6 +13,9 @@ Functions created with the function keyword are constructors, as are some built-
 
 Other function objects do not have a [[Construct]] internal method. These include arrow functions. So you can't use new with these. 
 
+
+Arrow function this value does not depend on the calling object.. arrow function this value is same as in outside the function..
+
 */ 
 const square =  function(number) {
 	return number* number;
