@@ -25,7 +25,7 @@ doWork().then((result)=> {
 const addValue  = async () => {
     const sum =  await add(1,3);
 	console.log(`this is sum ${sum}`)
-	const sum2 =  await add(sum,1);
+	const sum2 =  await add(sum,1);  // this will only be call if upper await is fulfilled resolved correctly if it reject then it will notcall
 	console.log(`add function ${sum2}`)
     return sum2;
 }
